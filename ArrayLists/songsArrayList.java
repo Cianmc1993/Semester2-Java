@@ -29,14 +29,12 @@ public class songsArrayList
       {
          if(a.getYear()<2000) // IF: current MusicTrack objects year is less then the year 2000
             System.out.println(a.getTitle()); // print song title of current music track in loop
-         // ELSE: do fuck all
       }
       
       for(MusicTrack a : myMp3Player) // (5.e) this loops through and didplays any tracks recorded by David Bowie
       {
          if(a.getArtist().equals("David Bowie")) // IF: current MusicTrack's artist is david bowie [ the .equals method is used to compare strings not the = sign]
             System.out.println(a.getTitle()); // print song title of current music track in loop
-         // ELSE: do fuck all
       }
       
       // (5.f) ASK: user to enter title of music track to remove from MusicTrack array list
