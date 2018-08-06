@@ -1,10 +1,3 @@
-/*
-	Written by : Maeve Carr
-	Date:
-	Desc:
-*/
-
-
 public class BankAccount
 {
 	//instance variables
