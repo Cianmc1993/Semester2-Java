@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class toString
+public class webAddress
 {
    public static void main(String[] args)
    {

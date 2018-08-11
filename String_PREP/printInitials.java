@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class CianRevision
+public class printInitials
 {
    public static void main(String[] args) 
    { 
