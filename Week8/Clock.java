@@ -1,12 +1,4 @@
-//***
-// Written by: Maeve Carr
-//
-// This class implements a clock. It has three
-// instance variables to store hours, minutes, and seconds,
-// and a number of simple methods to implement operations on time.
-//***
-
-   public class Clock
+public class Clock
    {
       private int hrs;     
       private int mins; 
@@ -112,7 +104,8 @@
           return str;
       }
       
-      public boolean equals(Clock anotherClock){
+      public boolean equals(Clock anotherClock)
+      {
         return(hrs == anotherClock.hrs
                && mins ==anotherClock.mins
                  && secs == anotherClock.secs);
