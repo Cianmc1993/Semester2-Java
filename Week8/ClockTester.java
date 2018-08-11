@@ -10,13 +10,16 @@ public class ClockTester
       System.out.println("The time is : " +myclock.getHours() +":"
          + myclock.getMinutes() +":"  +myclock.getSeconds() ); 
  
-		for(int i = 0; i < 10000; i++)myclock.tickTock();
+		for(int i = 0; i < 10000; i++)
+      
+      myclock.tickTock();
 			
 		 System.out.println("The time is : " +myclock.getHours() +":"
          + myclock.getMinutes() +":"  +myclock.getSeconds() );
          
        System.out.println(myclock);  //this calls .toString()
        System.out.println(myclock2);
+      
        
        if(myclock.equals(myclock2))
        System.out.println("Clocks are the same time");
