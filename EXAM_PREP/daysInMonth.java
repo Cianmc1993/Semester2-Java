@@ -12,7 +12,7 @@ public class daysInMonth
       
       do
       {
-         System.out.println("Enter month number [1 to 12], enter other to stop.");
+         System.out.println("Enter month number [1 to 12], enter -1 to stop.");
          probe = keyboardIn.nextInt();
          
          for(int i=0; i<myArray.length; i++)
