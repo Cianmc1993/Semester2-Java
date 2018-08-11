@@ -4,7 +4,7 @@ public class DateTester
    {   
       Date PreSet = new Date();
       Date today = new Date(18, 3, 2018);
-      Date today2 = new Date(18, 3, 2018);
+      Date today2 = new Date(18, 4, 2018);
       
      System.out.println(PreSet.toString());
      System.out.println(today.toString());

@@ -14,10 +14,11 @@ public class LineProcessor
       System.out.println("Enter string: ");
       line = keyboardIn.nextLine();
       
-      for(int i=0;i<line.length();i++){
-       WhiteSpaces = line.indexOf(" ");
-       System.out.println(WhiteSpaces);
-       }
+      for(int i=0;i<line.length();i++)
+      {
+          WhiteSpaces = line.indexOf(" ");
+          System.out.println(WhiteSpaces);
+      }
                        
   }  
 }

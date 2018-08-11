@@ -14,15 +14,18 @@ public class week9QC
       System.out.println("Choose number you wish to find: ");
       choice = keyboardIn.nextDouble();
          
-         for(int i=0; i < num.length; i++){
-            if(choice == num[i]){
+         for(int i=0; i < num.length; i++)
+         {
+            if(choice == num[i])
+            {
                System.out.println(choice+" was found at position: "+(i+1));
                System.out.println("Rounded: "+Math.round(num[i]));
                System.out.println("Square root "+Math.sqrt(num[i]));
-               }
-               else{
+            }
+               else
+               {
                    System.out.println("Number not found");
-              }
+               }
             } 
                }while(choice !=0);
              
